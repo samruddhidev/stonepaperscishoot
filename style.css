@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: white;
+    padding: 1vmin;
+}
+.bts{
+    margin-top: 8vmin;
+    height: 25vmin;
+    width: 25vmin;
+    border-radius: 50%;
+    border: none;
+}
+.bts:hover{
+    border: 7px solid black;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.game{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4vmin;
+}
+
+#paper{
+    background-image:url("paper.png");
+    background-size: cover;
+    background-position: center;
+}
+#rock{
+    background-image:url("rock\ \(1\).png") ;
+    background-size: cover;
+    background-position: center;
+}
+#scissor{
+    background-image:url("scissors.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmin;
+
+}
+.comp{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmin;
+}
+.scorebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10vmin;
+    margin-top: 10vmin;
+}
+.font{
+    font-size: 1.8rem;
+    font-weight:500;
+}
+.big{
+    font-size: 3rem;
+}
+.msgbox{
+    background-color: black;
+    color: white;
+    padding: 1vmin;
+    margin-top: 2rem;
+    display: inline-block;
+     border-radius: 2rem;
+    
+}
+.msg{
+    font-weight: 800;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+   
+    
+    
+}
